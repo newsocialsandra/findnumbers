@@ -1,5 +1,6 @@
 import re
-textfile = open('regex_sum_214714.txt', 'r')
+filename = raw_input("Enter the file name: ")
+textfile = open(filename, 'r')
 filetext = textfile.read()
 textfile.close()
 data = re.findall('[0-9]+', filetext)
