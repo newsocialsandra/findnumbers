@@ -8,4 +8,4 @@ sum = 0
 for n in data:
 	n = float(n)
 	sum += n
-print sum
+print "The sum of the numbers in the file is", sum
