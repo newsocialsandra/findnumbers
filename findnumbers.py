@@ -4,8 +4,8 @@ textfile = open(filename, 'r')
 filetext = textfile.read()
 textfile.close()
 data = re.findall('[0-9]+', filetext)
-sum = 0
+sum_of_numbers = 0
 for n in data:
 	n = float(n)
-	sum += n
-print "The sum of the numbers in the file is", sum
+	sum_of_numbers += n
+print "The sum of the numbers in the file is", sum_of_numbers
